@@ -24,6 +24,7 @@ class PhoneAuthenticationState extends State<PhoneAuthentication> {
   var buttonPaddingTop, buttonPaddingBottom;
   var isCodeSent = false;
   var phoneNumber;
+  String verificationId;
 
   @override
   void initState() {
